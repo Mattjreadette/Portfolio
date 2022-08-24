@@ -1,0 +1,21 @@
+h2 {font-size: 12; font-family: Arial, Helvetica, sans-serif; color: blue;}
+p {font-size: 14px;color: black;}
+.heading {color: blue} 
+.uppercase {text-transform: uppercase;}
+#about {font-family: Arial, Helvetica, sans-serif; text-transform: capitalize; padding: 5px;}
+h3 {font-family: Arial, Helvetica, sans-serif; color: blue;}
+h4 {font-family: Arial, Helvetica, sans-serif; color: blue;}
+body {font-family: Arial}
+h1 {text-align: center; color: blue;}
+#contactsection {background-color: rgb(197, 197, 204)}
+table, th, td {border: 2px solid black; border-collapse: collapse; padding: 10px; }
+img {border-radius: 100%;}
+.center {display: block; margin-left: auto;margin-right: auto;}
+#Accomplishmentssection {padding: 5px;}
+#Skills {padding: 5px;}
+/*stype the top navigation*/
+.topnav {position: fixed;top: 0; width: 100%; background-color: rgb(121, 121, 247);}
+/* Style the links inside the navigation bar */
+.topnav {float: right; display: block; text-align: right; padding: 07px; text-decoration: none;}
+main {margin-top: 20px;}
+header {margin-top: 50px;}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <Body>
+        <title>Matt Readette portfolio</title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
+         <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+         
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <meta name="viewport" content="width=device-width, user-scalable=no">
+    </Head>
+    <header>
+    <nav class="topnav" id="portfolioTopnav"> 
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Accomplishments">Accomplishments</a>
+            <a href="#Contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+    </nav>  
+        <h1>Matthew J Readette</h1>  
+    </header>   
+        <main>
+            <style>body {background-color: white;} </style>
+            <div id="aboutsection">
+            <a href="https://www.linkedin.com/in/matthewjreadette" target="_blank"> 
+            <figure><img src="C:\Users\User\Desktop\Portfolio\Work Headshot.jpg" alt="Matt Readette headshot" class="center" width="200" height="200"/></a></figure>
+        <h2 class="heading uppercase" id="about">About</h2>
+        <p>My name is Matt Readette I am a PhD candidate in the the Faculty of Creative Industries, Education and Social Justice (School of Teacher Education and Leadership) at QUT. 
+            My research project explore the post study abroad experiences of alumni and how the acquired skills and competencies upon return from overseas are realised and expressed 
+            in their professional fields. I am interestd in how this relates to international relations and higher education soft power initiatives.</p>
+            <!--About Section -->
+        <h3 class="uppercase" id="Skills">Skills</h3>
+            <h4>Research Skills</h4>
+                <ul>Data collection</ul>
+                <ul>Research project planning</ul>
+                <ul>Analysis of information from various sources</ul>
+            <h4>Interpersonal Skills</h4>
+                <ul>Self awareness and managment</ul>
+                <ul>Effective communication, written and oral</ul>
+                <ul>Critical thinking and problem solving</ul>
+                <ul>Team player</ul>
+            <h4>Technical Skills</h4>
+                <ul>Highly proficient Microsoft Office suite </ul>
+                <ul>Enterprise systems and database capable</ul>
+                <ul>Audio and Video content creator</ul>
+            </div>
+            <div id="Accomplishmentssection">
+        <h3 id="Accomplishments">Accomplishments</h3>
+            <table>
+                <tr>
+                    <th scope="col">Publications</th>
+                    <th scope="col">Awards</th>
+                    <th scope="col">Presentations</th>
+                </tr>
+                <tr>
+                    <td>Content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                </tr>
+            </table>
+            <h3>Coding Examples</h3>
+            <a href="quiz.html" target="_blank">Take the Portfolio Quiz</a>
+            </div>
+        <div id="contactsection">
+        <h3 id="Contact">Contact</h3>
+        <a href="https://www.linkedin.com/in/matthewjreadette" target="_blank"> LinkedIn</a>
+        <br>
+        <br>
+        <form>
+            <label for="name">Name*:</label>
+            <br>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <br>
+            <label for="Email">Email*:</label>
+            <br>
+            <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <br>
+            <br>
+            <label for="Mobie">Mobile (optional)</label>
+            <br>
+            <input type="tel" name="mobile" id="mobile" pattern="[0-9] {10,16}">
+            <br>
+            <br>
+            <label for="textarea">Please leave your message in the box below*</label>
+            <br>
+            <textarea id="message" name="textarea" rows="5" cols="35" required></textarea>
+            <br>
+            <br>
+            <input type="submit">
+            </form>
+            <br>
+            <br>
+            <br>
+            </div>
+        </main>
+    <script src="./nav.js"></script>
+    </Body>    
+</html>
